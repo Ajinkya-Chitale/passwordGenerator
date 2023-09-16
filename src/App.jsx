@@ -93,14 +93,14 @@ function App() {
     if(theme === "dark-theme") {
       setTheme('light-theme');
       setThemeText('Dark');
-      toggle.classList.remove('mr-auto');
-      toggle.classList.add('ml-auto');
+      toggle.classList.remove('ml-auto');
+      toggle.classList.add('mr-auto');
     }
     else {
       setTheme('dark-theme');
       setThemeText('Light');
-      toggle.classList.remove('ml-auto');
-      toggle.classList.add('mr-auto');
+      toggle.classList.remove('mr-auto');
+      toggle.classList.add('ml-auto');
     }
   }
 
